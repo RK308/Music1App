@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#40c4ff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="appBackgroundColor">#80d8ff</color>
+    <color name="appTextColor">#000000</color>
+    <color name="menuTextColor">#FFFFFF</color>
+    <color name="categoryTextColor">#000000</color>
+    <color name="genresColor">#4527a0</color>
+    <color name="artistColor">#827717</color>
+    <color name="songColor">#d84315</color>
+    <color name="shuffleColor">#006064</color>
+</resources>

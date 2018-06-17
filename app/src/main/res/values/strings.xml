@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SurTaal</string>
+    <string name="home">Home</string>
+    <string name="genres">Genres</string>
+    <string name="arrows"><![CDATA[>|]]></string>
+    <string name="artist">Artists</string>
+    <string name="all_songs">Playlist</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="type">Type here...</string>
+    <string name="search">Search</string>
+</resources>
