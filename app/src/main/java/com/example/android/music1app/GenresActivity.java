@@ -61,9 +61,9 @@ public class GenresActivity extends AppCompatActivity {
         setSupportActionBar(myToolbar);
 
         //Create new ArrayList and add all genres
-        final ArrayList<String> genres = new ArrayList<>();
-        genres.add("Pop");
-        genres.add("Rock");
+        final ArrayList<Song> genres = new ArrayList<>();
+        genres.add(new Song("Another Lonely Night", "Adam Lambert", "Rock", R.drawable.adam_ano_lonely));
+        genres.add(new Song("Circus", "Britney Spears", "Pop", R.drawable.britney_circus));
 
         //Create new adapter with genres ArrayList
         //Get ListView from XML and set adapter to list all genres
@@ -76,8 +76,8 @@ public class GenresActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                String category = "genres";
-                String genre = genres.get(position);
+                String category = "genre";
+                String genre = genres.get(position).getGenre();
                 Intent intent = new Intent(GenresActivity.this, SongActivity.class);
                 intent.putExtra("CATEGORY", category);
                 intent.putExtra("SPECIFIC", genre);

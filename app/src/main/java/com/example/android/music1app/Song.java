@@ -24,6 +24,9 @@ public class Song {
         mAlbumArtResId = albumArtResId;
     }
 
+    public Song(String artist){
+        mArtist = artist;
+    }
     /**
      * @return Song title.
      */

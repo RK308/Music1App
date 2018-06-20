@@ -89,6 +89,7 @@ public class SongActivity extends AppCompatActivity {
         //Create adapter for genres or artists as necessary
         final ArrayList<Song> genreSongs = new ArrayList<>();
         final ArrayList<Song> artistSongs = new ArrayList<>();
+
         if (category != null && specific != null) {
             int size = songs.size();
             if (category.equals("genre")) {

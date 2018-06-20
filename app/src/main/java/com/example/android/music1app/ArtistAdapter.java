@@ -11,13 +11,13 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ArtistAdapter extends ArrayAdapter<String> {
+public class ArtistAdapter extends ArrayAdapter<Song> {
 
     /**
      * @param context         Current context. Used to inflate the layout file.
      * @param artistArrayList List of artists to display in a list.
      */
-    public ArtistAdapter(Activity context, ArrayList<String> artistArrayList) {
+    public ArtistAdapter(Activity context, ArrayList<Song> artistArrayList) {
         super(context, 0, artistArrayList);
     }
 
@@ -37,13 +37,12 @@ public class ArtistAdapter extends ArrayAdapter<String> {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
+        Song currentArtist = getItem(position);
 
-        String currentArtist = getItem(position);
         TextView artistTextView = listItemView.findViewById(R.id.item_text_view);
-        artistTextView.setText(currentArtist);
+        artistTextView.setText(currentArtist.getArtist());
         final RelativeLayout artistLayout = listItemView.findViewById(R.id.list_item_layout);
         artistLayout.setBackgroundColor(artistLayout.getResources().getColor(R.color.artistColor));
-
         return listItemView;
     }
 }

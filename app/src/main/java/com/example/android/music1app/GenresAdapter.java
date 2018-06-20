@@ -10,13 +10,13 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class GenresAdapter extends ArrayAdapter<String> {
+public class GenresAdapter extends ArrayAdapter<Song> {
 
     /**
      * @param context        Current context. Used to inflate the layout file.
      * @param genreArrayList List of genres to display in a list.
      */
-    public GenresAdapter(Activity context, ArrayList<String> genreArrayList) {
+    public GenresAdapter(Activity context, ArrayList<Song> genreArrayList) {
         super(context, 0, genreArrayList);
     }
 
@@ -37,9 +37,10 @@ public class GenresAdapter extends ArrayAdapter<String> {
                     R.layout.list_item, parent, false);
         }
 
-        String currentGenre = getItem(position);
+        Song currentGenre = getItem(position);
+
         TextView genreTextView = listItemView.findViewById(R.id.item_text_view);
-        genreTextView.setText(currentGenre);
+        genreTextView.setText(currentGenre.getGenre());
         RelativeLayout genreLayout = listItemView.findViewById(R.id.list_item_layout);
         genreLayout.setBackgroundColor(genreLayout.getResources().getColor(R.color.genresColor));
 

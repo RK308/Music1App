@@ -13,7 +13,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ArtistActivity extends AppCompatActivity {
+public class    ArtistActivity extends AppCompatActivity {
 
     /**
      * Add menu to the app bar and set the Artists option to be not visible.
@@ -61,12 +61,12 @@ public class ArtistActivity extends AppCompatActivity {
             Toolbar myToolbar = findViewById(R.id.my_toolbar);
             setSupportActionBar(myToolbar);
 
-            //Create new ArrayList and add all artists
-            final ArrayList<String> artists = new ArrayList<>();
-            artists.add("Adam Lambert");
-            artists.add("Britney Spears");
-            artists.add("Justin Bieber");
-            artists.add("Shakira");
+            //Create new ArrayList and add all Song objects
+            final ArrayList<Song> artists = new ArrayList<>();
+            artists.add(new Song("Another Lonely Night", "Adam Lambert", "Rock", R.drawable.adam_ano_lonely));
+            artists.add(new Song("Circus", "Britney Spears", "Pop", R.drawable.britney_circus));
+            artists.add(new Song("Just looking for you", "Justin Bieber", "Rock", R.drawable.justin_looking_for_you));
+            artists.add(new Song("Amarillo", "Shakira", "Pop", R.drawable.shakira_amarillo));
 
             //Create new adapter with artists ArrayList
             //Get ListView from XML and set adapter to list all artists
@@ -80,7 +80,7 @@ public class ArtistActivity extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                     String category = "artist";
-                    String artist = artists.get(position);
+                    String artist = artists.get(position).getArtist();
                     Intent intent = new Intent(ArtistActivity.this, SongActivity.class);
                     intent.putExtra("CATEGORY", category);
                     intent.putExtra("SPECIFIC", artist);
