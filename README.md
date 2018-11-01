@@ -29,8 +29,8 @@ If images are included (e.g. Album Art), they are stored as drawables. All drawa
 
 
 # App Screenshots
-<img src="https://user-images.githubusercontent.com/38148871/47860326-acf80a80-ddc6-11e8-9417-d4a3ffb369d9.png" width=250> <img src="https://user-images.githubusercontent.com/38148871/47860327-acf80a80-ddc6-11e8-8b90-3ac19e521b64.png" width=250> <img src="https://user-images.githubusercontent.com/38148871/47860328-acf80a80-ddc6-11e8-9c36-96588726d676.png" width=250> <img src="https://user-images.githubusercontent.com/38148871/47860329-acf80a80-ddc6-11e8-9e2e-222a9a8aec59.png" width=250>
+<img src="https://user-images.githubusercontent.com/38148871/47860326-acf80a80-ddc6-11e8-9417-d4a3ffb369d9.png" width=300> <img src="https://user-images.githubusercontent.com/38148871/47860327-acf80a80-ddc6-11e8-8b90-3ac19e521b64.png" width=300> <img src="https://user-images.githubusercontent.com/38148871/47860328-acf80a80-ddc6-11e8-9c36-96588726d676.png" width=250> <img src="https://user-images.githubusercontent.com/38148871/47860329-acf80a80-ddc6-11e8-9e2e-222a9a8aec59.png" width=250>
 <img src="https://user-images.githubusercontent.com/38148871/47860330-acf80a80-ddc6-11e8-8eb9-e33a28e49f43.png" width=250>
 <img src="https://user-images.githubusercontent.com/38148871/47860331-acf80a80-ddc6-11e8-8d7f-f641b4a30354.png" width=250>
-<img src="https://user-images.githubusercontent.com/38148871/47860332-ad90a100-ddc6-11e8-91dd-2f09cb009f29.png" height=250> <img src="https://user-images.githubusercontent.com/38148871/47860333-ad90a100-ddc6-11e8-818e-4ff3e9ab7a54.png" height=250> <img src="https://user-images.githubusercontent.com/38148871/47860334-ad90a100-ddc6-11e8-9f28-02171d8ba4e3.png" height=250>
+<img src="https://user-images.githubusercontent.com/38148871/47860332-ad90a100-ddc6-11e8-91dd-2f09cb009f29.png" height=350> <img src="https://user-images.githubusercontent.com/38148871/47860333-ad90a100-ddc6-11e8-818e-4ff3e9ab7a54.png" height=350> <img src="https://user-images.githubusercontent.com/38148871/47860334-ad90a100-ddc6-11e8-9f28-02171d8ba4e3.png" height=350>
 
