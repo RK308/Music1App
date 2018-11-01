@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent artistsIntent = new Intent(MainActivity.this, ArtistActivity.class);
                 startActivity(artistsIntent);
                 return true;
-                case R.id.action_genres:
+            case R.id.action_genres:
                 Intent genresIntent = new Intent(MainActivity.this, GenresActivity.class);
                 startActivity(genresIntent);
                 return true;
@@ -41,13 +41,13 @@ public class MainActivity extends AppCompatActivity {
                 Intent songsIntent = new Intent(MainActivity.this, SongActivity.class);
                 startActivity(songsIntent);
                 return true;
-                case R.id.action_shuffle:
+            case R.id.action_shuffle:
                 Intent shuffleIntent = new Intent(MainActivity.this, ShuffleActivity.class);
                 startActivity(shuffleIntent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
-                }
+        }
     }
 
     @Override
