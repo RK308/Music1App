@@ -32,7 +32,8 @@ If images are included (e.g. Album Art), they are stored as drawables. All drawa
  ![GitHub Logo](Screenshots/Screenshot_1541083788.png)  ![GitHub Logo](Screenshots/Screenshot_1541083810.png) 
  ![GitHub Logo](Screenshots/Screenshot_1541083831.png)  ![GitHub Logo](Screenshots/Screenshot_1541083868.png) 
  ![GitHub Logo](Screenshots/Screenshot_1541083935.png)  ![GitHub Logo](Screenshots/Screenshot_1541083999.png) 
- ![GitHub Logo](Screenshots/Screenshot_1541084062.png)  ![GitHub Logo](Screenshots/Screenshot_1541084138.png)   
+ ![GitHub Logo](Screenshots/Screenshot_1541084062.png)  ![GitHub Logo](Screenshots/Screenshot_1541084138.png) 
+ <img src=Screenshots/Screenshot_1541083788.png height=200>
 
 
  
