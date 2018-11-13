@@ -32,8 +32,10 @@ If images are included (e.g. Album Art), they are stored as drawables. All drawa
 
   <img src=Screenshots/Screenshot_1541083788.png width=300>   <img src=Screenshots/Screenshot_1541083810.png width=300>
   <img src=Screenshots/Screenshot_1541083831.png width=300>   <img src=Screenshots/Screenshot_1541083868.png width=300>
-  <img src=Screenshots/Screenshot_1541083935.png width=300>   <img scr=Screenshots/Screenshot_1541083999.png height=300> 
-  <img src=Screenshots/Screenshot_1541084062.png height=300>  <img src=Screenshots/Screenshot_1541084138.png height=300>
+  <img src=Screenshots/Screenshot_1541083935.png width=300>
+  <img scr=Screenshots/Screenshot_1541083999.png height=300> 
+  <img src=Screenshots/Screenshot_1541084062.png height=300> 
+  <img src=Screenshots/Screenshot_1541084138.png height=300>
     
    
  
